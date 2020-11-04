@@ -14,18 +14,18 @@ additional libraries:
 - jsonwebtoken
 - moongoose
 
-# Use Insomnia to check routes
+#/ Use Insomnia to check routes
 
 /users
-- /login requires { email, password }
-- /register requires { email, password, passwordCheck }
-- /delete yourself
+- "/login" requires { email, password }
+- "/register" requires { email, password, passwordCheck }
+- "/delete" yourself
 
 # need to be logged
 /todos
-- / req { title } - post
-- /all - get all
-- /:id - deletes post with this id
+- "/" req { title } - post
+- "/all" - get all
+- "/:id" - deletes post with this id
 
 # frontend build with React - inside FRONTEND map
 getting data from routes, post new Todo, delete selected todo
