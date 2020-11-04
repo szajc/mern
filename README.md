@@ -2,10 +2,10 @@
 
 Web app using the MERN stack 
 
-#/ MongoDB - atlas
-#/ Express for making routes
-#/ React
-#/ Node.js
+- MongoDB - atlas
+- Express for making routes
+- React
+- Node.js
 
 additional libraries: 
 #/ cors
